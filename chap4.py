@@ -126,3 +126,63 @@ def draw_3_pies():
 # 26 fuctions? One for every letter? Maybe some other time..
 
 # 4.5
+# The book answer is much simpler than mine, using a known change in the turtle
+# angle at each point.
+
+def draw_spiral(t, turns, scale=1, theta_step = 0.1):
+    """ Draw an Archimedes spiral.
+    Polar coordinates are r(theta) = scale*theta.
+    Rectangular coordinates are x = scale*theta*cos(theta)
+                                y = scale*theta*sin(theta)
+    theta_step: change in theta for each straight line drawn
+    turns: Number of revolutions around the origin
+    scale: multiplier for how spread out the spiral should be
+    """
+    x_origin = 0
+    y_origin = 0
+    angle = 0 #turtle angle
+    theta = 0 #parameter of spiral equation, r(theta)=scale*theta
+    num_steps = int(2*math.pi*turns/theta_step)
+    for i in range(num_steps):
+        # Compute the next point
+        theta += theta_step #increment theta, can think of this as time also
+        x_new = scale*theta*math.cos(theta)
+        y_new = scale*theta*math.sin(theta)
+        
+        # Change in x and y to the next point
+        x_diff = x_new - x_origin
+        y_diff = y_new - y_origin
+        
+        # Compute the straight distance and angle to the next point
+        distance = math.sqrt(x_diff**2 + y_diff**2)
+        # atan2(y,x) finds the arctan (inverse tangent) of y/x, and makes sure
+        # it's pointing in the right way. Regular tan might end up pointing
+        # in the exact opposite way, since e.g. atan(-1/1)=atan(1/-1)=-pi/4=-45 degrees.
+        # But atan2(1,-1)=3*pi/4=135 deg, and atan2(-1,1)=-pi/4=-45 deg.
+        angle_new = math.atan2(y_diff, x_diff)
+        
+        # Turtle is already facing some angle, so find the angle we need to rotate
+        # so that the turtle is facing angle_new.
+        angle_diff = angle_new - angle
+        
+        # Draw segment
+        t.lt(math.degrees(angle_diff)) #atan2 gives radians, turtle wants degrees
+        t.fd(distance)
+        
+        # Update origin variables for next move
+        x_origin = x_new
+        y_origin = y_new
+        angle = angle_new
+
+
+def test_draw_spiral():
+    bob = turtle.Turtle()
+    #bob.fd(100)
+    #bob.lt(-90)
+    #bob.fd(100)
+    draw_spiral(bob,turns=10, scale=5)
+    turtle.mainloop()
+
+    
+test_draw_spiral()
+                
