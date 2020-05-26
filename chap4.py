@@ -177,9 +177,6 @@ def draw_spiral(t, turns, scale=1, theta_step = 0.1):
 
 def test_draw_spiral():
     bob = turtle.Turtle()
-    #bob.fd(100)
-    #bob.lt(-90)
-    #bob.fd(100)
     draw_spiral(bob,turns=10, scale=5)
     turtle.mainloop()
 
