@@ -12,3 +12,6 @@ Exercises in section 4.12
 #### Chapter 5
 These exercises all seem good and straightforward. The last one (5.6.3) could be tricky to figure out depending on which fractal you pick.
 Also for 5.1, the book doesn't necessarily make it clear that the number returned by time.time() is the number of seconds since midnight on the given start date of the epoch.
+
+#### Chapter 7
+I wouldn't worry too much about the table of square roots looking pristine, as there are more (better) ways of formatting for the future. But it can still be interesting to make it look nice, and the key (with tools so far described) is using str(n) to cast a number to a string, so you can use len() on it (e.g. `len(str(5.31))=4)`. And also concatenate it with other strings. Also helpful to note that by default, Python seems to display a max of 16 digits after the decimal place (so 18 characters total for positive numbers less than 10).
