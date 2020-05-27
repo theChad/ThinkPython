@@ -1,4 +1,5 @@
 # Exercise 9.7
+# bookkeeper, bookkeeping, bookeepers, bookkeepings
 
 import words # For the filter function
 
