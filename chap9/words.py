@@ -12,6 +12,7 @@ def big_words(filename = "words.txt"):
 #big_words()
 
 # Exercise 9.2
+# 33.07% of words have no e (37,641).
 
 def has_no_e(word):
     """Return true if word has no e, and false otherwise
@@ -27,10 +28,15 @@ def no_e_words(filename = "words.txt"):
     """Print out all words in filename with no 'e'
     """
     fin = open(filename)
+    count = 0 # no e words
+    total_count = 0 # all words
     for line in fin:
         word = line.strip()
+        total_count += 1
         if has_no_e(word):
             print(word)
+            count += 1
+    print("Percentage of words with no e:",100*count/total_count)
             
 #no_e_words()
 
@@ -109,19 +115,28 @@ def filter_words(pred, filter_string=None, filename = "words.txt"):
     filter_string: second argument to pred
     """
     count = 0
-    fin = open(filename)
+    # Make a true predicate function, folding in the filter_string if there was one.
+    # I want this so when I run through all lines in words.txt, I can just check
+    # true_pred(word), without having to worry about whether I also need to pass
+    # in the filter string.
     if filter_string==None:
-        for line in fin:
-            word = line.strip()
-            if pred(word):
-                print(word)
-                count += 1
+        # No filter string, so our true_pred fuction will really just be a pass-through
+        # for pred, which could be has_no_e or is_abecedarian
+        def true_pred(word):
+            return pred(word)
     else:
-        for line in fin:
-            word = line.strip()
-            if pred(word, filter_string):
-                print(word)
-                count += 1
+        # Else case. So there *is* a filter string. I want to be able to filter without
+        # referring to the filter string, so true_pred is now a "wrapper" around
+        # another fuction, with that extra argument already in there
+        # pred here might be avoids, uses_only or uses_all
+        def true_pred(word):
+            return pred(word, filter_string)
+    fin = open(filename)
+    for line in fin:
+        word = line.strip()
+        if true_pred(word):
+            print(word)
+            count +=1
     print("Found", count, "words")
 
 # Exercise 9.6
