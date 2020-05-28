@@ -1,4 +1,4 @@
-# Exercise 4.3
+# Exercise 5.3
 
 # 4.3.1
 def is_triangle(a, b, c):

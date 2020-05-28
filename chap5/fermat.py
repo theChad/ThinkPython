@@ -1,4 +1,4 @@
-# Exercise 4.2
+# Exercise 5.2
 
 import math
 

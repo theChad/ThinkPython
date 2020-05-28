@@ -1,6 +1,7 @@
 # Testing module for chapter 10 problems
 
 import lists
+from ..chap9 import words
 
 def test_lists():
     nested_lists = [[[1,2],[3],[4,5,6]],

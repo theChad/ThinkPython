@@ -32,8 +32,8 @@ def mid_box_segment():
 def mid_box_final():
     print('|')
 
-    # Print a full middle row of 2 boxes
-# Agin input function do_times will repeat the pattern some number of times
+# Print a full middle row of 2 boxes
+# Again input function do_times will repeat the pattern some number of times
 def mid_boxes(do_times):
     do_times(mid_box_segment)
     mid_box_final()

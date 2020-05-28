@@ -1,7 +1,7 @@
-# Exercise 4.6
+# Exercise 5.6
 import turtle
 
-# 4.6.1
+# 5.6.1
 def koch(t, x):
     """Draw a koch curve.
     t: Turtle object
@@ -20,7 +20,7 @@ def koch(t, x):
         t.lt(60)
         koch(t, x/3)
 
-# 4.6.2
+# 5.6.2
 def snowflake(t, x):
     """Draw a snowflake using three koch curves
     t: Turtle
@@ -35,7 +35,7 @@ def snowflake(t, x):
     t.rt(120)
     koch(t,x)
 
-# 4.6.3
+# 5.6.3
 def quadratic_island(t, x):
     """Draw a quadratic island
     t: Turtle

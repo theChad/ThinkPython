@@ -1,4 +1,4 @@
-# Exercise 4.4
+# Exercise 5.4
 
 # Output: sum of integers from 1 to n, plus s.
 
