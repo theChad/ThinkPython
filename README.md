@@ -43,10 +43,7 @@ I wouldn't worry too much about the table of square roots looking pristine, as t
 #### Chapter 9
 It starts to become useful around here to make multiple files and be able to import functions from your own modules. If all the modules (.py files) are in the same directory, this can be done just like importing the math module, with `import <modulename>`. E.g. if a file name is wordlist.py, you can access all the functions in that file by using `import wordlist` at the top of your new module.
 
-[Exercises 9.1-9.6](chap9/words.py)
-[Exercises 9.7](chap9/cartalk.py)
-[Exercises 9.8](chap9/odometer.py)
-[Exercises 9.9](chap9/ages.py)
+[Exercises 9.1-9.6](chap9/words.py), [9.7](chap9/cartalk.py), [9.8](chap9/odometer.py), [9.9](chap9/ages.py)
 
 #### Chapter 10
 [Exercises 10.1-10.7](chap10/lists.py)
