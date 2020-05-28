@@ -21,5 +21,9 @@ def ack(m,n):
     elif m>0 and n>0:
         return ack(m-1,ack(m,n-1))
 
-#print(ack(3,4)) #125
+print(ack(3,4)) #125
+print(ack(3,6))
+print(ack(3,7))
+print(ack(3,8))
+print(ack(3,9))
 #print(ack(4,4)) #maximum recursion depth exceeded

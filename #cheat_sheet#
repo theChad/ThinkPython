@@ -2,7 +2,7 @@ Think Python
 ---------------
 Constructs/statements: if, for, while
 Functions: type, isinstance
-Input/output: input
+Input/output: input, pprint
 Files: open
 Character functions: ord, chr
 String methods: join, split, strip, zfill, islower, isupper, lower, upper
