@@ -3,11 +3,13 @@ Think Python
 
 Exercises in the Think Python 2nd Edition, by Allen B. Downey.
 
-[Chapter 2 Exercises](chap2.py)
+#### Chapter 2
+[Exercises](chap2.py)
 
-[Chapter 3 Exercises](chap3.py)
+#### Chapter 3
+[Exercises](chap3.py)
 
-[Chapter 3 Ex 3.3, more robust version](chap3_alt.py)
+More robust version of [3.3](chap3_alt.py)
 
 #### Chapter 4
 Exercises in section 4.12
@@ -25,7 +27,8 @@ Also for 5.1, the book doesn't necessarily make it clear that the number returne
 
 Exercises: [5.1](epoch.py), [5.2](fermat.py), [5.3](triangle.py), [5.4](recurse.py) [5.6](koch.py)
 
-Chapter 6 [exercises](chap6)
+#### Chapter 6
+[Exercises](chap6)
 
 #### Chapter 7
 I wouldn't worry too much about the table of square roots looking pristine, as there are more (better) ways of formatting for the future. But it can still be interesting to make it look nice, and the key (with tools so far described) is using str(n) to cast a number to a string, so you can use len() on it (e.g. `len(str(5.31))=4)`. And also concatenate it with other strings. Also helpful to note that by default, Python seems to display a max of 16 digits after the decimal place (so 18 characters total for positive numbers less than 10).
