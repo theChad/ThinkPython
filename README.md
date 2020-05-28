@@ -4,12 +4,12 @@ Think Python
 Exercises in the Think Python 2nd Edition, by Allen B. Downey.
 
 #### Chapter 2
-[Exercises](chap2.py)
+[Exercises](chap2/chap2.py)
 
 #### Chapter 3
-[Exercises](chap3.py)
+[Exercises](chap3/chap3.py)
 
-More robust version of [3.3](chap3_alt.py)
+More robust version of [3.3](chap3/chap3_alt.py)
 
 #### Chapter 4
 Exercises in section 4.12
@@ -17,9 +17,9 @@ Exercises in section 4.12
 * 4.3, polygon pies, is relatively straightforward. Might be good to know about 'math.sin(x)', which is in the math.py package. You can use it by having the line `import math` at the top of your python module. Note that the pie slices are isosceles triangles, which can be split up into two right triangles.
 * 2,4 and 5 are a little trickier (or more involved, in the case of 4). Could probably be skipped.
 
-[Section 4.3 Exercises](mypolygon.py)
+[Section 4.3 Exercises](chap4/mypolygon.py)
 
-[Exercises 4.1-4.5](chap4.py)
+[Exercises 4.1-4.5](chap4/chap4.py)
 
 #### Chapter 5
 These exercises all seem good and straightforward. The last one (5.6.3) could be tricky to figure out depending on which fractal you pick.
