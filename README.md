@@ -46,4 +46,6 @@ It starts to become useful around here to make multiple files and be able to imp
 [Exercises 9.1-9.6](chap9/words.py), [9.7](chap9/cartalk.py), [9.8](chap9/odometer.py), [9.9](chap9/ages.py)
 
 #### Chapter 10
-[Exercises 10.1-10.7](chap10/lists.py)
+[Exercises 10.1-10.7](chap10/lists.py), [10.8](chap10/birthdays.py), [10.9](chap10/wordlist.py), [10.10](chap10/inlist.py),
+[10.11](chap10/reverse_pair.py), [10.12](chap10/interlock.py)
+There's also a [testing module](chap10/test.py) for the first 7 exercises.
