@@ -25,7 +25,7 @@ Exercises in section 4.12
 These exercises all seem good and straightforward. The last one (5.6.3) could be tricky to figure out depending on which fractal you pick.
 Also for 5.1, the book doesn't necessarily make it clear that the number returned by time.time() is the number of seconds since midnight on the given start date of the epoch.
 
-Exercises: [5.1](epoch.py), [5.2](fermat.py), [5.3](triangle.py), [5.4](recurse.py) [5.6](koch.py)
+Exercises: [5.1](chap5/epoch.py), [5.2](chap5/fermat.py), [5.3](chap5/triangle.py), [5.4](chap5/recurse.py), [5.6](chap5/koch.py)
 
 #### Chapter 6
 [Exercises](chap6)
