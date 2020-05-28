@@ -3,8 +3,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Emacs temp files
+# Emacs files
 *~
+\#*\#
+
+# Data file
+words.txt
 
 # C extensions
 *.so
