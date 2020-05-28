@@ -52,3 +52,8 @@ It starts to become useful around here to make multiple files and be able to imp
 [Exercises 10.1-10.7](chap10/lists.py), [10.8](chap10/birthdays.py), [10.9](chap10/wordlist.py), [10.10](chap10/inlist.py),
 [10.11](chap10/reverse_pair.py), [10.12](chap10/interlock.py)
 There's also a [testing module](chap10/test.py) for the first 7 exercises.
+
+#### Chapter 11
+For exercise 11.3, the memoization of the Ackerman function, it'll be useful to look up tuples, which the chapter briefly mentions. Tuples are immutable lists, which means you can hash them and use them as keys in a dictionary. So something like `known[(m,n)]` for accessing/storing `ack(m,n)`.
+
+Exercise [11.1](chap11/worddict.py), [11.2](chap11/inver_dict.py), [11.3](chap11/ackermann_memo.py), [11.4](chap11/has_duplicates.py), [11.5](chap11/rotate_pairs.py)
