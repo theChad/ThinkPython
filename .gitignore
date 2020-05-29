@@ -15,6 +15,7 @@ tramp
 
 # Data file
 words.txt
+c06d
 
 # C extensions
 *.so
