@@ -56,4 +56,4 @@ There's also a [testing module](chap10/test.py) for the first 7 exercises.
 #### Chapter 11
 For exercise 11.3, the memoization of the Ackerman function, it'll be useful to look up tuples, which the chapter briefly mentions. Tuples are immutable lists, which means you can hash them and use them as keys in a dictionary. So something like `known[(m,n)]` for accessing/storing `ack(m,n)`.
 
-Exercise [11.1](chap11/worddict.py), [11.2](chap11/inver_dict.py), [11.3](chap11/ackermann_memo.py), [11.4](chap11/has_duplicates.py), [11.5](chap11/rotate_pairs.py)
+Exercise [11.1](chap11/worddict.py), [11.2](chap11/inver_dict.py), [11.3](chap11/ackermann_memo.py), [11.4](chap11/has_duplicates.py), [11.5](chap11/rotate_pairs.py), 11.6 [pronuncation data reader](chap11/pronounce.py) and [homophone finder](chap11/homophone.py)
