@@ -11,11 +11,14 @@ List methods: pop, remove, sort, append, extend
 List operators: del, +, *, slice[s:e:i], in, is
 List functions: sorted
 Dictionary operators: in
-Dictionary methods: values, keys, get
-Dictionary functions: dict, sorted
+Dictionary methods: values, keys, get, items, update
+Dictionary functions: dict, sorted, dict(zip(keys, values))
 Exceptions: raise, LookupError()
 Tuple: immutable list
-
+Tuple functions: sorted, reversed
+Tuple operators: assignment, return, *, for
+iterator objects: zip, items (dictionary)
+enumerate object: enumerate (index, element)
 
 Emacs
 -----------
