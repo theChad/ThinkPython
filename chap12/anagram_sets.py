@@ -13,10 +13,13 @@ def get_anagrams(filename="../chap9/words.txt", num_letters=0):
     for line in fin:
         word = line.strip()
         alpha_word = ''.join(sorted(word))
-        # Use setdefault for the first time we try to use the key
-        # alpha_word. anagrams[alpha_word] is set to [], and then appending
-        # word makes anagrams[alpha_word]==[word]. Otherwise it's
-        # [word1, word 2, .., word]
+        # We want to just append word onto the current list of words stored
+        # under alpha_word, anagrams[alpha_word].append(word).
+        # But if anagrams doesn't yet have alpha_word as a key, that won't
+        # work. So use setdefault to take care of the first time we
+        # encounter alpha_word.
+        # anagrams[alpha_word] is set to [], and then appending
+        # word makes anagrams[alpha_word]==[word].
         anagrams.setdefault(alpha_word,[]).append(word)
     # Only want words with anagrams; make sure every entry has at least
     # two words. list(anagrams.items()) will force the iterator, which is
