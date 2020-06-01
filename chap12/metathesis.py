@@ -6,6 +6,9 @@
 import anagram_sets
 
 # First write a function to test for meta pairs
+# The book's solution for the analog to this function will be more effiecient,
+# because it takes advantage of the fact that word1 and word2 are anagrams.
+# The function here would work on any 2 words.
 def is_meta_pair(word1, word2):
     """Return true if word1 and word 2 are metathesis pairs, i.e. if
     you can transform one into the other by switching two letters.
