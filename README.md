@@ -12,12 +12,12 @@ Exercises in the Think Python 2nd Edition, by Allen B. Downey.
 More robust version of [3.3](chap3/chap3_alt.py)
 
 #### Chapter 4
+Section 4.3 [Exercises](chap4/mypolygon.py)
+
 Exercises in section 4.12
 * 4.1, stack diagram is an important concept
 * 4.3, polygon pies, is relatively straightforward. Might be good to know about 'math.sin(x)', which is in the math.py package. You can use it by having the line `import math` at the top of your python module. Note that the pie slices are isosceles triangles, which can be split up into two right triangles.
 * 2,4 and 5 are a little trickier (or more involved, in the case of 4). Could probably be skipped.
-
-[Section 4.3 Exercises](chap4/mypolygon.py)
 
 [Exercises 4.1-4.5](chap4/chap4.py)
 
@@ -37,16 +37,14 @@ I wouldn't worry too much about the table of square roots looking pristine, as t
 
 #### Chapter 8
 
-[Section 8.3 Exercises](chap8/practice.py)
+Section 8.3 [Exercises](chap8/practice.py)
 
-[Exercises 8.2-8.4](chap8/string_methods.py)
-
-[Exercise 8.5](chap8/caesar.py)
+Exercises [8.2-8.4](chap8/string_methods.py), [8.5](chap8/caesar.py)
 
 #### Chapter 9
 It starts to become useful around here to make multiple files and be able to import functions from your own modules. If all the modules (.py files) are in the same directory, this can be done just like importing the math module, with `import <modulename>`. E.g. if a file name is wordlist.py, you can access all the functions in that file by using `import wordlist` at the top of your new module.
 
-[Exercises 9.1-9.6](chap9/words.py), [9.7](chap9/cartalk.py), [9.8](chap9/odometer.py), [9.9](chap9/ages.py)
+Exercises [9.1-9.6](chap9/words.py), [9.7](chap9/cartalk.py), [9.8](chap9/odometer.py), [9.9](chap9/ages.py)
 
 #### Chapter 10
 [Exercises 10.1-10.7](chap10/lists.py), [10.8](chap10/birthdays.py), [10.9](chap10/wordlist.py), [10.10](chap10/inlist.py),
@@ -61,4 +59,4 @@ Exercise [11.1](chap11/worddict.py), [11.2](chap11/inver_dict.py), [11.3](chap11
 #### Chapter 12
 [Practice exercises](chap12/practice.py)
 
-Exercise [12.1](chap12/most_frequent.py), [12.2](chap12/anagram_sets.py), [12.3](chap12/metathesis.py)
+Exercise [12.1](chap12/most_frequent.py), [12.2](chap12/anagram_sets.py), [12.3](chap12/metathesis.py), [12.4](chap12/reducible.py)
