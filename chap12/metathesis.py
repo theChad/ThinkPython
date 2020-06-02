@@ -46,7 +46,6 @@ def find_meta_pairs(anagram_dict):
     return meta_pairs
 
 if __name__=='__main__':
-    print("test")
     meta_pairs = find_meta_pairs(anagram_sets.get_anagrams())
     print(meta_pairs)
 
