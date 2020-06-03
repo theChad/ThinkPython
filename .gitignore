@@ -16,6 +16,7 @@ tramp
 # Data file
 words.txt
 c06d
+kafka.txt
 
 # C extensions
 *.so
