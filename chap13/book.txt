@@ -1,4 +1,13 @@
+This is just the header. Don't read this part.
+*** This is the end of the header.
+
 This is a test
+There need to be a lot of words here, at least twenty, so I can print the
+twenty most common ones.
+Also, for the generator, I'd like to have one word be an obvious one.
+hydroplaning hydroplaning hydroplaning hydroplaning hydroplaning hydroplaning
+hydroplaning hydroplaning hydroplaning hydroplaning hydroplaning hydroplaning
+hydroplaning hydroplaning hydroplaning hydroplaning hydroplaning hydroplaning
 ALL OF THIS SHOULD BE LOWERCASE
 And none of tHIs should have #$^$any sy#%^*()(*&^%$#mbo%$^^&**((@!L$%$S
 Thank you.
