@@ -139,6 +139,14 @@ def check_wordlist(word_list, book_words):
             non_words[word] = None
     return non_words
 
+# Exercise 13.6
+# Find words not in wordlist using set subtraction
+def check_wordlist_sets(wordlist, book_words):
+    """Return only those words in book_words not in wordlist, in a set
+    wordlist, book_words: dictionaries
+    """
+    return set(book_words)-set(wordlist)
+    
 # Test 13.1-4
 def test_book_analysis():
     words = get_only_words('kafka.txt') 
@@ -151,7 +159,7 @@ def test_book_analysis():
 
 
 
-# Exercise 13.5
+# Exercise 13.5/13.7
 # The book's version of choose_from_hist is much simpler. This one
 # requires a much smaller list (just all unique words, vs all words),
 # I think this version should be faster, and it requires less memory.
@@ -159,6 +167,9 @@ def test_book_analysis():
 # the text will probably take twice the time for each of these.
 # Until the number of new unique words tops growing, and then
 # this version stops taking much more time at all.
+
+# After reading a bit more..the book does suggest this method in
+# section 13.7, and in exercise 7.
 
 # Overview of book's version:
 # Create a list of every single word in the book, with repeats.

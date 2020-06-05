@@ -17,6 +17,7 @@ tramp
 words.txt
 c06d
 kafka.txt
+chap13/*.txt
 
 # C extensions
 *.so

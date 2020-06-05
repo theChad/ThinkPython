@@ -19,6 +19,8 @@ Tuple functions: sorted, reversed
 Tuple operators: assignment, return, *, for
 iterator objects: zip, items (dictionary)
 enumerate object: enumerate (index, element)
+profile module: benchmarking
+
 
 Emacs
 -----------
