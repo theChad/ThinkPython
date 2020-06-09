@@ -5,7 +5,7 @@ Functions: type, isinstance
 Input/output: input, pprint
 Files: open
 Character functions: ord, chr
-String methods: join, split, strip, zfill, islower, isupper, lower, upper
+String methods: join, split, strip, zfill, islower, isupper, lower, upper, replace, repr
 String operators: +, *, slice[s:e:i], format operator %
 List methods: pop, remove, sort, append, extend
 List operators: del, +, *, slice[s:e:i], in, is
@@ -21,11 +21,12 @@ iterator objects: zip, items (dictionary)
 enumerate object: enumerate (index, element)
 profile module: benchmarking
 Files: open('w'), write, close
-os: getcwd, listdir, chdir, walk, popen
+os: getcwd, listdir, chdir, walk, popen (now deprecated - use subprocess)
 os.path: abspath, exists, isdir, isfile, join
 errors: try..except
 databases: dbm.open, <dbname>.close
 pickle: dumps, loads, shelve (module for pickle + dbm)
+interpreter: import, reload(tricky - may just want to restart interpreter)
 
 
 Emacs
