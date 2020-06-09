@@ -60,3 +60,6 @@ Exercise [11.1](chap11/worddict.py), [11.2](chap11/inver_dict.py), [11.3](chap11
 [Practice exercises](chap12/practice.py)
 
 Exercise [12.1](chap12/most_frequent.py), [12.2](chap12/anagram_sets.py), [12.3](chap12/metathesis.py), [12.4](chap12/reducible.py)
+
+#### Chapter 13
+Exercises [13.1-13.7](chap13/analyze_book.py), [13.8](chap13/markov.py), [13.9](chap13/zipf.py)
