@@ -11,6 +11,8 @@ Exercises in the Think Python 2nd Edition, by Allen B. Downey.
 
 More robust version of [3.3](chap3/chap3_alt.py)
 
+Here's a [few more explanations](extra/function_calls.py) about function calls and functions as arguments
+
 #### Chapter 4
 Section 4.3 [Exercises](chap4/mypolygon.py)
 
