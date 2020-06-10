@@ -18,6 +18,7 @@ words.txt
 c06d
 kafka.txt
 chap13/*.txt
+chap14/*.db
 
 # C extensions
 *.so
