@@ -65,3 +65,10 @@ Exercise [12.1](chap12/most_frequent.py), [12.2](chap12/anagram_sets.py), [12.3]
 
 #### Chapter 13
 Exercises [13.1-13.7](chap13/analyze_book.py), [13.8](chap13/markov.py), [13.9](chap13/zipf.py)
+
+#### Chapter 14
+Section 14.4 [exercise](chap14/walk.py), recursive file walk.
+
+For these, I used subprocess instead of os.popen, since os.popen has been deprecated. Either one is probably fine, but you can read about subprocess in the Python docs if you want.
+
+Exercise [14.1](chap14/sed.py), [14.2](chap14/anagram_db.py), [14.3](chap14/find_duplicates.py)
