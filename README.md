@@ -76,4 +76,10 @@ Exercise [14.1](chap14/sed.py), [14.2](chap14/anagram_db.py), [14.3](chap14/find
 #### Chapter 15
 In-chapter [exercises](chap15/point.py)
 
-Exercise [15.1](chap15/circle.py)
+Exercise [15.1](chap15/circle.py), [15.2](chap15/draw.py)
+
+#### Chapter 16
+
+In chapter [exercises](chap16/my_time.py)
+
+Exercise [16.1](chap16/race.py), [16.2](chap16/double.py)
