@@ -72,3 +72,8 @@ Section 14.4 [exercise](chap14/walk.py), recursive file walk.
 For these, I used subprocess instead of os.popen, since os.popen has been deprecated. Either one is probably fine, but you can read about subprocess in the Python docs if you want.
 
 Exercise [14.1](chap14/sed.py), [14.2](chap14/anagram_db.py), [14.3](chap14/find_duplicates.py)
+
+#### Chapter 15
+In-chapter [exercises](chap15/point.py)
+
+Exercise [15.1](chap15/circle.py)
