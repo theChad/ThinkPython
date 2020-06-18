@@ -1,7 +1,7 @@
 Think Python
 ---------------
 Constructs/statements: if, for, while
-symbol functions: type, isinstance
+symbol functions: type, isinstance, hasattr
 Input/output: input, pprint
 Files: open
 Character functions: ord, chr
