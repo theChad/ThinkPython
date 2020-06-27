@@ -1,7 +1,7 @@
 Think Python
 ---------------
 Constructs/statements: if, for, while
-symbol functions: type, isinstance, hasattr
+symbol functions: type, isinstance, hasattr, getattr, vars
 Input/output: input, pprint
 Files: open
 Character functions: ord, chr
@@ -28,6 +28,14 @@ databases: dbm.open, <dbname>.close
 pickle: dumps, loads, shelve (module for pickle + dbm)
 interpreter: import, reload(tricky - may just want to restart interpreter)
 copy: copy, deepcopy
+
+Classes
+--------
+methods: subject assigned to first parameter, called self by convention
+init: __init__, called on instantiation
+__str__ : return string representation
+__add__ : overload + operator
+__radd__ : overload + operator, object as second argument (swaps arguments)
 
 Emacs
 -----------
