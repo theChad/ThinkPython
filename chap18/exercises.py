@@ -1,4 +1,4 @@
-# Exercies 18.3
+# Exercise from Section 18.3
 
 class Time:
 
