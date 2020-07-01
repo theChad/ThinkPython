@@ -95,3 +95,9 @@ Exercise [17.1](chap17/Time2.py), 17.2 [my code](chap17/Kangaroo.py) and [fix of
 Exercise from [section 18.3](chap18/exercises.py), [18.6](chap18/myCard.py), and [18.10, the markov refactoring](chap18/markov.py).
 
 Exercise [18.1](chap18/PingPongUML.txt), [18.2](chap18/myCard.py), [18.3](chap18/PokerHand.py). The book exercise stipluates that a hand should be classified/labled as only its highest classification, but the book solution counts *every* classification of a hand, rather than just the highest value classification. This leads to different probabilty values than you might see in a standard poker hand chart. My solution does the problem as asked.
+
+#### Chapter 19
+
+In-chapter [exercises](chap19/exercises.py)
+
+Exercise [19.1](chap19/binomial.py)

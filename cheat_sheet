@@ -10,8 +10,8 @@ String operators: +, *, slice[s:e:i], format operator %
 List methods: pop, remove, sort, append, extend
 List operators: del, +, *, slice[s:e:i], in, is
 List functions: sorted
-Dictionary operators: in
-Dictionary methods: values, keys, get, items, update
+Dictionary operators: in, del
+Dictionary methods: values, keys, get, items, update, pop
 Dictionary functions: dict, sorted, dict(zip(keys, values))
 Exceptions: raise, LookupError()
 Tuple: immutable list
@@ -36,6 +36,18 @@ init: __init__, called on instantiation
 __str__ : return string representation
 __add__ : overload + operator
 __radd__ : overload + operator, object as second argument (swaps arguments)
+__lt__ : overload < operator
+inheritance: class Jetta(Car):
+
+Conditional Expression: <true_exp> if <cond> else <false_exp>
+List comprehension: [<element_expression> for <var> in <collection>]
+Generator expression (lazy list comprehension): (<expr> for <var> in <coll>)
+Booleans: any(<sequence>), all(<seq>)
+Sets: |, &, -, <=, <
+Counters: collections.Counter(), +, -, |, &, most_common(<num>), <counter>.update(<coll>)
+defaultdict: collections.defaultdict(<factory>) <-factory is a function that creates default value
+namedtuple: collections.namedtuple(<class_name>,[<attribute_names>]) <- creates simple class on the fly
+scatter operators: * (positional expansion), ** (keyword). Can use in creating or calling. Can use ** with dict
 
 Emacs
 -----------
