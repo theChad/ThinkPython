@@ -26,7 +26,7 @@ def avoids(word, forbidden):
     # is false only if it's empty.)
     # return not set(word) & set(forbidden)
 
-    # Using only methods shown in the book, we could just set difference.
+    # Using only methods shown in the book, we could just use set difference.
     # Subtracting forbidden from word would have no effect if there are no common letters.
     return set(word) == set(word) - set(forbidden)
 
@@ -43,8 +43,19 @@ def has_straightflush(self):
     """
     # partition the hand by suit and check each
     # sub-hand for a straight
+
+    # Make d a defaultdict instead of normal dict
+    # The factory will be PokerHand. That just means that
+    # if d[key] fails (there's not key named 'key' yet in d),
+    # it will assign d[key]=PokerHand(). You give it the factory
+    # as a function, then it knows to call that function and
+    # assign the return value to d[key].
     d = defaultdict(PokerHand)
+    
     for c in self.cards:
+        # This line is much cleaner now. Just d[c.suit] is either
+        # a PokerHand we've already added cards to, or it's a newly
+        # created PokerHand, via the constructor function PokerHand().
         d[c.suit].add_card(c)
 
     # see if any of the partitioned hands has a straight
