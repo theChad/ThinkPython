@@ -101,3 +101,7 @@ Exercise [18.1](chap18/PingPongUML.txt), [18.2](chap18/myCard.py), [18.3](chap18
 In-chapter [exercises](chap19/exercises.py)
 
 Exercise [19.1](chap19/binomial.py)
+
+#### Appendix B
+
+[Exercises](appB/exercises.txt)

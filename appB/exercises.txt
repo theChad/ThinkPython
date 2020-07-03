@@ -1,0 +1,18 @@
+Exercise 19.1
+
+1. Order of growth is O(n^3) for all three; constant factors don't affect the order.
+2. Order of growth is O(n^3), which is the first term.
+3. af+b is also in O(g), since constants don't affect the order.
+4. f1+f2 is also O(g). At most you're multiplying the biggest term by a constant.
+5. f1+f2 is in O(g+h).
+6. f1*f2 is in O(g*h). Even if there are a lot of smaller terms in f1*f2, we only care about the largest term.
+
+Exercise 19.2
+
+1. A comparison sort works by only using a comparison operator on two elements at a time. Best worst-case order is Onlog(n)). (Unshuffle sort says kn, but k depends on n. And in fact in the worst case, k=log(n).)  Otherwise best worst-case seems to be log^2(n) for parallel algorithms.
+2. Bubble sort is O(n^2), and hence much less efficient as the list size grows.
+3. Radix sort is O(n*k/d), but k/d > log(n), so it seems like it's still O(n*log(n)).
+4. Stable sort preserves the original order of items that are equal under this sort's comparator. It allows you to run nested sorts.
+5. Bogosort is the worst - random shuffling until the list happens to be in order.
+6. C uses quicksort. Python uses Timsort (merge and insertion sort). Quicksort is not stable, but Timsort is.
+7. Comparison sorts are more general. The faster sorts tend to be counting sorts that use numerical data, while comparison sort works on an arbitrary sets of data, as long as a comparison function is given.
